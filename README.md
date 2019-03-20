@@ -44,6 +44,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 For this project I used and experimented with two identical network one as a target one as the network that trains.
 I Also used techniques such as Double DQN, Dueling DQN and Prioritized Experience Replay.
 For more information read the report file in the repo
+This papers were used in creating this project:
+* [Human-level control through deep reinforcementlearning](http://files.davidqiu.com//research/nature14236.pdf)
+* [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
+* [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/abs/1511.06581)
+* [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
 
 
 ## License
