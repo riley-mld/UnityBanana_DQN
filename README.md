@@ -2,6 +2,7 @@
 This project was done as part of the [_Udacity Deep Reinforcement Learning Nanodegree](https://eu.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
 Deep Q Learning was used in this project to teach an agent to collect yellow bananas and avoid blue bananas in a Unity environment.
 
+![](Extras/TrainedAgent.gif?raw=true)
 
 ## Getting Started
 For Installing this code, you will need to install the dependencies first or You can also install the folder python in the repo using git for easy installation.
@@ -11,7 +12,7 @@ For Installing this code, you will need to install the dependencies first or You
 
 
 ## Instructions
-For Training the agents after going through the installation steps, first open the Navigation file with Jupyter Notebook. Then change the line with the path to the enviroment, to where it's located in your computer. You can download the files from here and unzip them at the repositories location.
+For Training the agents after going through the installation steps, first open the Navigation file with Jupyter Notebook. Then change the line with the path to the environment, to where it's located in your computer. You can download the files from here and unzip them at the repositories location.
 * Linux: [click Here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
 * Mac OSX: [click Here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
 * Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
@@ -41,7 +42,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Deep Q Learning
 For this project I used and experimented with two identical network one as a target one as the network that trains.
-I Also used techniques such as Double DQN, Dueling DQN and Priorotised Experience Replay.
+I Also used techniques such as Double DQN, Dueling DQN and Prioritized Experience Replay.
 For more information read the report file in the repo
 
 
